@@ -1,24 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
+import TextField from '@mui/material/TextField';
+import Signin from './pages/signin/signin';
+import param from './pages/dashboard/parameter/voting';
+import Voting from './pages/dashboard/parameter/voting';
+import Result from './pages/results/userResults';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+        <div>
+              {/* <Signin/>  */}
+              {/* <param/> */}
+              {/* <Voting/> */}
+              <Result/>
+          
+        </div>
   );
 }
 
